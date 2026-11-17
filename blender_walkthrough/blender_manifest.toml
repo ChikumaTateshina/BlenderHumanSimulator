@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "blender_walkthrough"
+version = "0.1.1"
+name = "Walkthrough"
+tagline = "First-person walkthrough with capsule collision"
+maintainer = "ChikumaTateshina"
+type = "add-on"
+
+tags = ["3D View"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:MIT"]
+
+# No network or filesystem access is used.
