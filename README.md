@@ -20,14 +20,15 @@ A Blender add-on for first-person walkthroughs of your scene at human eye level,
 
 ## インストール
 
-1. リポジトリのルートで、アドオンの zip をビルドする。
-
-   ```
-   blender -c extension build --source-dir blender_walkthrough --output-dir dist
-   ```
-
-2. Blender の `Edit > Preferences > Get Extensions > 右上の ▼ > Install from Disk...` で、`dist/` にできた zip を選ぶ。
+1. [最新リリース](https://github.com/ChikumaTateshina/BlenderHumanSimulator/releases/latest) から `blender_walkthrough-x.y.z.zip` をダウンロードする（zip は展開しない）。
+2. Blender の `Edit > Preferences > Get Extensions > 右上の ▼ > Install from Disk...` で、ダウンロードした zip を選ぶ。
 3. 3Dビューのサイドバー（Nキー）に「Walkthrough」タブが表示される。
+
+ソースから zip をビルドする場合は、リポジトリのルートで次を実行します（`dist/` に出力）。
+
+```
+blender -c extension build --source-dir blender_walkthrough --output-dir dist
+```
 
 ## 使い方
 
